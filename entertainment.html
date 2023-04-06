@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Entertainment Quiz - The Brain Gym</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>The Brain Gym!</h1>
+            <p>Entertainment Quiz.</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section class="quiz">
+                <h2 id="question"></h2>
+                <ul id="choices">
+                    <li><button id="choice0"></button></li>
+                    <li><button id="choice1"></button></li>
+                    <li><button id="choice2"></button></li>
+                    <li><button id="choice3"></button></li>
+                </ul>
+                <p>Question <span id="question-number"></span> of <span id="total-questions"></span></p>
+                <p>Score: <span id="score"></span></p>
+                <button id="next-button">Next</button>
+                <button id="reset-button">Reset</button>
+            </section>
+        </div>
+    </main>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 The Brain Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/entertainment.js"></script>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/ef1b2a065e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
