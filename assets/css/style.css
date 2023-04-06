@@ -133,7 +133,7 @@ footer p {
 
 /* Quiz styling */
 .quiz {
-    background-color: #f1c40f;
+    background-color: var(--main-color);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
@@ -158,7 +158,7 @@ footer p {
     display: block;
     width: 100%;
     padding: 10px 20px;
-    background-color: #009432;
+    background-color: var(--main-button-color);
     color: #fff;
     font-size: 18px;
     border: none;
@@ -167,16 +167,8 @@ footer p {
     transition: background-color 0.3s ease;
   }
   
-  button.correct {
-    background-color: #2ecc71;
-  }
-  
-  button.wrong {
-    background-color: #e74c3c;
-  }
-  
   button:hover {
-    background-color: #27ae60;
+    background-color: var(--main-bg-color);
   }
   
   #next-button {
