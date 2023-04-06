@@ -25,3 +25,19 @@ helpLink.addEventListener("click", () => {
     // Show an alert with the random random encouragment words
     alert(randomEncouragement);
 });
+
+/* for form message */
+const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  // perform action with form data
+  console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+
+  // display thank you alert
+  alert('Thank you for your message!');
+});
