@@ -4,7 +4,7 @@
     --main-bg-color: rgb(29, 26, 26);
     --main-color: rgb(18, 92, 255);
     --main-button-color: rgb(240, 221, 6);
-  }
+}
 
 /* Universal selector to apply box-sizing, margin, and padding to all elements */
 * {
