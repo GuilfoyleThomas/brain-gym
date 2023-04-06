@@ -1,6 +1,7 @@
 The Brain Gym
 =============
-![alt text](/assets/images/Logo.PNG "Logo")
+![Logo](/assets/images/Logo.PNG "Logo")
+![https://ui.dev/amiresponsive?url=https://guilfoylethomas.github.io/brain-gym/](/assets/images/responsive.PNG "Responsive Website")
 =============
 Table of Contents
 -----------------
