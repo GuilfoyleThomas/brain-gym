@@ -118,5 +118,3 @@ const questions = [
   
   // Start the quiz
   showQuestion();
-  
-  ttttt
